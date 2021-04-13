@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #222;
+}
+
+.top-left {
+    padding: 18px;
+}
+
+.top-left,.bottom-left {
+    position: relative;
+    float: left;
+}
+
+.top-right,.bottom-right {
+    position: relative;
+    float: right;
+}
+
+.container {
+    position: fixed;
+    bottom: 50%;
+    width: 100%;
+}
+
+.content {
+    position: relative;
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.provider {
+    display: block;
+    margin: 10px 10px 10px 10px;
+}
+
+.provider a {
+    color: blue;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    color:rgba(0,0,0,.54);
+}
+
+.footer a, a:visited {
+    color: #70757a;
+}
+
+.text-box-left {
+    display: inline-block;
+    margin: 10px 0px 10px 20px;
+}
+
+.text-box-right {
+    display: inline-block;
+    margin: 10px 20px 10px 0px;
+}
+
+.text-box-right img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.line-text {
+    position: relative;
+    left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bottom-line {
+    border-top:lightgrey 1px solid;
+}
+
+.search-box {
+    border-radius: 50px;
+    background: white;
+    height: 50px;
+    border: 1px solid #dfe1e5;
+}
+
+form {
+    margin: 0;
+}
+
+.search-box input {
+    border: none;
+    margin: 10px 5px 10px 0px;
+    font-size: 20px;
+    width:80%;
+    outline:none;
+    color: rgba(0,0,0,.87);
+}
+
+.insider {
+    font-size: 20px;
+    margin: 15px 10px;
+    color: #9aa0a6;
+}
+
+.form-center {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+.form-center input {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.form-center input:hover {
+    border: 1px solid #dfe1e5;
+}
